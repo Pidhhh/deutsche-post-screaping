@@ -2,6 +2,8 @@
 
 A Python web scraper to extract employee reviews from Kununu.com for Deutsche Post & DHL.
 
+> **📊 Results:** All scraped data is saved in the `/outputs/` folder. Check `outputs/reviews.csv`, `outputs/reviews.json`, or `outputs/reviews.xlsx` for the results!
+
 ## 📋 Project Information
 
 - **Target Website:** https://www.kununu.com/de/deutsche-post/kommentare
@@ -107,11 +109,11 @@ time.sleep(3)  # Default is 3 seconds
 
 ## 📁 Output
 
-All scraped data is saved in the `output/` folder:
+All scraped data is saved in the `outputs/` folder:
 
-- `output/reviews.json` - JSON format
-- `output/reviews.csv` - CSV format (Excel-compatible)
-- `output/reviews.xlsx` - Excel format
+- `outputs/reviews.json` - JSON format
+- `outputs/reviews.csv` - CSV format (Excel-compatible)
+- `outputs/reviews.xlsx` - Excel format
 
 ## 📝 Example Output Structure
 
@@ -233,8 +235,8 @@ pip install -r requirements.txt
 # 4. Run the scraper
 python scraper.py
 
-# 5. Check the output folder
-cd output
+# 5. Check the outputs folder
+cd outputs
 ```
 
 ---

@@ -299,7 +299,7 @@ class KununuScraper:
         
         print(f"Total reviews scraped: {len(self.reviews_data)}")
     
-    def save_to_json(self, filename='output/reviews.json'):
+    def save_to_json(self, filename='outputs/reviews.json'):
         """Save scraped data to JSON file"""
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         
@@ -308,7 +308,7 @@ class KununuScraper:
         
         print(f"Data saved to {filename}")
     
-    def save_to_csv(self, filename='output/reviews.csv'):
+    def save_to_csv(self, filename='outputs/reviews.csv'):
         """Save scraped data to CSV file"""
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         
@@ -343,7 +343,7 @@ class KununuScraper:
         
         print(f"Data saved to {filename}")
     
-    def save_to_excel(self, filename='output/reviews.xlsx'):
+    def save_to_excel(self, filename='outputs/reviews.xlsx'):
         """Save scraped data to Excel file"""
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         
@@ -413,7 +413,7 @@ def main():
         print("\n" + "=" * 60)
         print(f"✓ Scraping completed successfully!")
         print(f"✓ Total reviews collected: {len(scraper.reviews_data)}")
-        print(f"✓ Check the 'output' folder for results")
+        print(f"✓ Check the 'outputs' folder for results")
         print("=" * 60)
     else:
         print("\n⚠ No data was scraped. Please check the website structure or try again.")
