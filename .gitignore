@@ -34,6 +34,9 @@ outputs/*.csv
 outputs/*.xlsx
 outputs/*.html
 
+# Checkpoints
+/checkpoints/
+
 # IDE
 .vscode/
 .idea/

@@ -1,0 +1,4 @@
+screaperV1 Base model
+
+screaperV2.py
+Semua sudah kecuali rating untuk kategori
